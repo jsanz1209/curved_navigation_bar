@@ -28,7 +28,7 @@ class NavButton extends StatelessWidget {
           onTap(index);
         },
         child: Container(
-            height: 75.0,
+            height: 85,
             child: Transform.translate(
               offset: Offset(
                   0, difference < 1.0 / length ? verticalAlignment * 40 : 0),
